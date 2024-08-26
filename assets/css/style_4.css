@@ -1,0 +1,20 @@
+div, span{
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.cajita1{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    margin: 5px; 
+    padding-top: 10px;
+    
+}
+.cajita2{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    margin: 5px; 
+    padding-bottom: 10px;
+}

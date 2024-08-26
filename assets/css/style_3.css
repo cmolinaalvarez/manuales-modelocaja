@@ -1,0 +1,29 @@
+div, span{
+    border:2px solid black;
+    border-radius: 10px;
+}
+
+.cajita1{
+    width: 300px;
+    height: 150px;
+    background-color: red;
+    /* margin-bottom: 10px; */
+    /* margin-left: 20px; */
+    /* margin-right: 30px; */
+    /* margin-left: 30px; */
+
+    /* Shorthand de margin */
+    margin: 50px; /*Sentido del reloj*/
+    
+}
+.cajita2{
+    width: 300px;
+    height: 150px;
+    background-color: blue;
+    /* margin-top: 10px; */
+    /* margin-left: 30px; */
+    /* margin-bottom: 10px; */
+
+    /* Shorthand de margin */
+    margin: 50px; /*Sentido del reloj*/
+}

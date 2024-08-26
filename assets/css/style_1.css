@@ -1,0 +1,25 @@
+.contenedor1{
+    background-color: red;
+    width:200px;
+    height: 100px;
+    /* max-height: 100px; */
+    /* min-height: 100px; */
+    margin: 5px;
+
+}
+.contenedor2{
+    background-color: blue;
+    width:100px;
+    height: 200px;
+    /* max-height: 100px; */
+    /* min-height: 100px; */
+    margin: 5px;
+}
+.contenedor3{
+    background-color: green;
+    width:200px;
+    height: 200px;
+    /* max-height: 100px; */
+    /* min-height: 100px; */
+    margin: 5px;
+}

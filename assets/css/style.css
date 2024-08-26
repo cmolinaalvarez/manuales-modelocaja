@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box; /* Esta propiedad asegura que la caja mida un total de 200px de ancho y 50px de alto.*/
+}
+
+div{
+    border-width: 10px;
+    /* border-radius: 2px; */
+}
+
+.solid{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 1px groove rgba(66, 63, 63, 0.514);
+    margin: 5px; /* El margin debe ser superior al ofset porque si no; el ofset se sale del límite */
+    outline: 1px solid rgb(230, 219, 219);
+    outline-offset: 3px;
+    box-sizing: border-box; /* Esta propiedad asegura que la caja mida un total de 200px de ancho y 50px de alto.*/
+}
+
+.dotted{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 1px dotted red;
+}
+
+.dashed{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 1px dashed blue;
+}
+
+.double{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 1px double yellow;
+}
+
+
+.groove{
+    width: 200px;
+    height: 50px;
+    border-style: groove;
+    text-align: center;
+    border: 1px groove rgba(66, 63, 63, 0.514);
+    margin: 5px; /* El margin debe ser superior al ofset porque si no; el ofset se sale del límite */
+    outline: 1px dotted rgb(230, 219, 219);
+    outline-offset: 3px;
+}
+
+.ridge{
+    width: 200px;
+    height: 50px;
+    border-style: ridge;
+    text-align: center;
+}
+
+.inset{
+    width: 200px;
+    height: 50px;
+    border-style: inset;
+    text-align: center;
+}
+
+.outset{
+    width: 200px;
+    height: 50px;
+    border-style: inset;
+    text-align: center;
+}
+
+.none{
+    width: 200px;
+    height: 50px;
+    border-style: none;
+    text-align: center;
+}
+
+.hidden{
+    width: 200px;
+    height: 50px;
+    border-style: hidden;
+    text-align: center;
+}
+
+.mix{
+    width: 200px;
+    height: 50px;
+    border-style: solid dotted dashed double;
+    text-align: center;
+}
+
+
+div {
+    width:100px;
+    border: solid red 1px;
+    padding:5px;
+    margin:10px;
+    box-sizing: 100px;
+
+}
+
+
+
+
